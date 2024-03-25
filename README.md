@@ -6,7 +6,7 @@ This project is part of the coursework for the COMP 6721 - Applied Artificial In
     
 ## About
 
-This project aims to do comparative study of CNN models like resnet18, vgg16 and mobilenet and evaluate the model based on their performance. 
+This project aims to do comparative study of CNN models like resnet18, vgg16 and mobilenet and evaluate the model for chosen datasets based on their performance. 
 To achieve this we have taken the need of image classification in fashion industry. With the increasing use of online shopping for clothing, it has become important for e-commerce websites to correctly identify categories for all the clothing items available on the website.
 We have used three different datasets, each consisting of 12k, 20k and 40k images respectively.
 
