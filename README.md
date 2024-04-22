@@ -18,6 +18,27 @@ To run these files there are some prequisities.
 
 - Download your kaggle API token file and place it in the local directory to run these three python notebooks(scripts are available for downloading the datasets).
 
+##Instructions to run the sample data sets
+
+###Dataset -3
+Unzip the downloaded images
+
+import io
+from torchvision.io import read_image
+import zipfile
+
+zip_path = 'REPLACE_THE_PATH_OF_SAMPLE_DATASET_HERE'
+
+extracted_dir = 'temp3'
+
+try:
+    # Extract the zip file into the specified directory
+    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+        zip_ref.extractall(extracted_dir)
+    print("Extraction successful.")
+except Exception as e:
+    print("Error occurred during extraction:", str(e))
+
 
 
 
