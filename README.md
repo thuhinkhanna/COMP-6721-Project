@@ -20,7 +20,7 @@ To run these files there are some prequisities.
 
 ## Instructions to run the sample data sets
 
-- ### Dataset -3
+### Dataset -3
 Unzip the downloaded images
 
 import io
@@ -38,6 +38,8 @@ try:
     print("Extraction successful.")
 except Exception as e:
     print("Error occurred during extraction:", str(e))
+
+
 
 
 
