@@ -18,9 +18,9 @@ To run these files there are some prequisities.
 
 - Download your kaggle API token file and place it in the local directory to run these three python notebooks(scripts are available for downloading the datasets).
 
-##Instructions to run the sample data sets
+## Instructions to run the sample data sets
 
-###Dataset -3
+### Dataset -3
 Unzip the downloaded images
 
 import io
